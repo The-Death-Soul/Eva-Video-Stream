@@ -94,17 +94,17 @@ async def start_(c: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("🎶𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩🎶", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
                     InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_USERNAME}")
+                    InlineKeyboardButton("💞𝐎𝐰𝐧𝐞𝐫💞", url=f"https://t.me/The_Alive_Soul")
                 ],[
-                    InlineKeyboardButton("👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("🥂𝐆𝐫𝐨𝐮𝐩🥂", url=f"https://t.me/Love_Dear_Comrades"),
+                    InlineKeyboardButton("🍹𝐂𝐡𝐚𝐧𝐧𝐞𝐥🍹", url=f"https://t.me/ZaraSupport")
                 ],[
-                    InlineKeyboardButton("🌐 Source Code", url="https://github.com/levina-lab/video-stream")
+                    InlineKeyboardButton("💠𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫💠", url="https://t.me/The_Death_Soul")
                 ],
             ]
         ),
@@ -124,9 +124,9 @@ async def alive(c: Client, message: Message):
     buttons = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🥂𝐆𝐫𝐨𝐮𝐩🥂", url=f"https://t.me/Love_Dear_Comrades"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "🍹𝐂𝐡𝐚𝐧𝐧𝐞𝐥🍹", url=f"https://t.me/ZaraSupport"
                 ),
             ]
         ]
@@ -195,10 +195,10 @@ async def new_chat(c: Client, m: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                                InlineKeyboardButton("💭 Support", url=f"https://t.me/{GROUP_SUPPORT}")
+                                InlineKeyboardButton("🍹𝐂𝐡𝐚𝐧𝐧𝐞𝐥🍹", url=f"https://t.me/ZaraSupport"),
+                                InlineKeyboardButton("🍹𝐆𝐫𝐨𝐮𝐩🍹", url=f"https://t.me/Love_Dear_Comrades")
                             ],[
-                                InlineKeyboardButton("👤 Assistant", url=f"https://t.me/{me_user.username}")
+                                InlineKeyboardButton("👤Assistant", url=f"https://t.me/{me_user.username}")
                             ]
                         ]
                     )
