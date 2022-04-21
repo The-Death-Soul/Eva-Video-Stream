@@ -49,17 +49,17 @@ async def start_set(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to a Group ➕", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("🎶𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐀 𝐆𝐫𝐨𝐮𝐩🎶", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
                     InlineKeyboardButton("❓ Basic Guide", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton("📚 Commands", callback_data="command_list"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_USERNAME}")
+                    InlineKeyboardButton("💞𝐎𝐰𝐧𝐞𝐫💞", url=f"https://t.me/The_Alive_Soul")
                 ],[
-                    InlineKeyboardButton("👥 Support Group", url=f"https://t.me/{GROUP_SUPPORT}"),
-                    InlineKeyboardButton("📣 Support Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                    InlineKeyboardButton("🥂𝐆𝐫𝐨𝐮𝐩🥂", url=f"https://t.me/Love_Dear_Comrades"),
+                    InlineKeyboardButton("🍹𝐂𝐡𝐚𝐧𝐧𝐞𝐥🍹", url=f"https://t.me/ZaraSupport")
                 ],[
-                    InlineKeyboardButton("🌐 Source Code", url="https://github.com/levina-lab/video-stream")
+                    InlineKeyboardButton("💠𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫💠", url="https://t.me/The_Death_Soul")
                 ],
             ]
         ),
