@@ -17,8 +17,8 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Love_Dear_Comrades")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ZaraSupport")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
